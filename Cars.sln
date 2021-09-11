@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarUI", "CarUI\CarUI.csproj", "{419B07DD-EA32-4369-9452-392BC577F038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAPI", "CarAPI\CarAPI.csproj", "{FCE7D370-4D52-46B4-A2DC-904408C4205B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIUnitTest", "APIUnitTest\APIUnitTest.csproj", "{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419B07DD-EA32-4369-9452-392BC577F038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419B07DD-EA32-4369-9452-392BC577F038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419B07DD-EA32-4369-9452-392BC577F038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419B07DD-EA32-4369-9452-392BC577F038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EA6738C-B271-4D4E-9BF4-B6593EBB4616}
+	EndGlobalSection
+EndGlobal

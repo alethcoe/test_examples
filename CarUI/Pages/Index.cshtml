@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Cars";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cars</h1>
+    <label>Number:</label>
+    <input type="number" id="number" name="Number">
+    <button type="submit" onclick="getCars()">Search</button><br /><br />
+</div>
+
+<div id="table" class="display-6" style="display: flex; justify-content: center;"></div>
