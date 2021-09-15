@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarUI", "CarUI\CarUI.csproj", "{419B07DD-EA32-4369-9452-392BC577F038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarUI", "CarUI\CarUI.csproj", "{419B07DD-EA32-4369-9452-392BC577F038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAPI", "CarAPI\CarAPI.csproj", "{FCE7D370-4D52-46B4-A2DC-904408C4205B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAPI", "CarAPI\CarAPI.csproj", "{FCE7D370-4D52-46B4-A2DC-904408C4205B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIUnitTest", "APIUnitTest\APIUnitTest.csproj", "{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIUnitTest", "tests\APIUnitTest\APIUnitTest.csproj", "{78A84354-B893-40FC-81B7-58472D590FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "tests\APITests\APITests.csproj", "{7A36CF86-933C-489C-9838-A4AA3AAFFA5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE7D370-4D52-46B4-A2DC-904408C4205B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{870F189B-3DB6-4B4C-BFDB-BAD07546D8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A84354-B893-40FC-81B7-58472D590FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A84354-B893-40FC-81B7-58472D590FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A84354-B893-40FC-81B7-58472D590FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A84354-B893-40FC-81B7-58472D590FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A36CF86-933C-489C-9838-A4AA3AAFFA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A36CF86-933C-489C-9838-A4AA3AAFFA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A36CF86-933C-489C-9838-A4AA3AAFFA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A36CF86-933C-489C-9838-A4AA3AAFFA5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-const sut = require ('../CarUI/wwwroot/js/site.js');
+const sut = require ('../../CarUI/wwwroot/js/site.js');
 
 test('default is 10', () => {
     document.body.innerHTML = "<html><body><input type='number' id='number'></body></html>"
